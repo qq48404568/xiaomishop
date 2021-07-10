@@ -1,0 +1,64 @@
+*{margin: 0px; padding: 0px;}
+li{list-style:none;}
+a{text-decoration: none;color: #ccc;cursor: pointer;}
+h1,h2,h3,h4,h5,h6{font-weight: 300;}
+.clear{clear: both;}
+
+.detail{width: 100%;height: 65px;border-top: 1px solid #ccc;line-height: 65px;box-shadow: -3px 5px 10px #eee;}
+.detail_left{float: left;}
+.detail_right{float: right;}
+.detail a{font-size: 10px;color: #444;display: inline-block;}
+.detail span{border-left: 2px solid #ccc;height: 12px;margin :0px 7px;display: inline-block;}
+
+.shop_detail{width:1226px;margin: 30px auto 0px;}
+.shop_detail_pic{width: 560px;height: 600px;float: left;margin-right: 30px;}
+.shop_detail_menu{width: 600px;float: right;}
+.shop_detail_menu h1{font-size: 27px;}
+.shop_detail_menu p{font-size: 13px;color: #ccc;}
+.shop_detail_menu h2{color: #ff6700;font-size: 20px;border-bottom: 1px solid #ccc;height: 50px;line-height: 50px;}
+.detail_map{width: 558px;border: 1px solid #ccc;background: #fafafa;padding: 30px 10px 30px 30px;line-height:20px;margin: 30px 0px;font-size: 14px; }
+.shop_detail_much, .shop_detail_color{width:600px;}
+/*jQuery中替换版本的class样式*/
+.shop_detail_much .checked{border: 1px solid #ff6700;}
+
+.shop_detail_much p{font-size: 18px;color: #333;margin-bottom: 15px;}
+.shop_detail_much div{font-size: 15px;padding: 0px 20px;float: left;width: 255px;height: 50px;line-height: 50px;border:1px solid #ccc;}
+.shop_detail_much span{float: right;color: #ccc;}
+
+.shop_detail_color p{font-size: 18px;color: #333;margin: 15px 0px;}
+.shop_detail_color div{font-size: 15px;padding: 0px 20px;float: left;width: 255px;height: 50px;line-height: 50px;border:1px solid #ccc;text-align: center;}
+.shop_detail_color span{display: inline-block;width: 16px;height: 16px;border-radius: 8px;margin-right: 10px;}
+/*jQuery中替换颜色的class样式*/
+.shop_detail_color .checked{border: 1px solid #ff6700;}
+
+.shop_detail_bz0 p{font-size: 18px;color: #333;margin: 20px 0px;float: left;}
+.shop_detail_bz0 a{float: right;color: #ff6700;margin: 27px 0px;font-size: 13px;}
+.shop_detail_bz1{ border: 1px solid #ccc;width: 598px;height: 150px; }
+.shop_detail_bz1 span{float: left; width: 10px;height: 10px;line-height: 10px;display: inline-block;border-radius: 6px;margin:60px 0px;margin-left: 40px;}
+.shop_detail_bz1 img{float: left;margin:50px 20px;}
+.shop_detail_1{margin: 40px 0px;}
+.shop_detail_1 p{margin-bottom: 10px;}
+.shop_detail_1 b{width: 10px;height: 10px;line-height: 10px;display: inline-block;}
+.shop_detail_1 span{float: right;margin: 0px;margin-right: 20px;color: #aaa;width: 50px;}
+.shop_detail_button{color:rgba(0,0,0,0);border: 1px solid #ccc;}
+/*jQuery中选中服务的的class样式*/
+.shop_detail_bz1 .checked {color: #ff6700;}
+
+.shop_detail_zj{width: 600px;height: 130px;background: #f9f9fa;margin-top: 30px;}
+.shop_detail_zj div{margin: 0px 30px 20px;width: 540px;height: 50px;line-height: 50px;}
+.shop_detail_zj p{color: #333;float: left;font-size: 15px;}
+.shop_detail_zj span{color: #333;float: right;font-size: 15px;}
+.shop_detail_cart{width: 300px;height: 50px;text-align: center;line-height: 50px;background: #ff6700;font-size: 18px;margin-top: 30px;color: #fff;}
+.shop_detail_cart+p{font-size: 15px;margin: 20px 0px;}
+
+.detail_content{background: #f9f9fa;}
+.detail_content_1{margin: 0px auto;width: 1226px;padding: 20px 0px;}
+.detail_content_1 p{font-size: 25px;color: #333;margin: 10px 0px;}
+
+
+
+
+
+
+
+
