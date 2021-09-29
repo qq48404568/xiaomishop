@@ -1,30 +1,39 @@
-*{margin: 0px; padding: 0px;}
-li{list-style:none;}
-a{text-decoration: none;color: #ccc;cursor: pointer;}
+*{margin: 0px;padding: 0px;border: none;}
 .clear{clear: both;}
+li{list-style: none;}
+a{text-decoration: none;color: #ccc;cursor:pointer;}
+.header{width: 1176px;height:100px;margin: 0px auto;line-height:90px;padding-left: 20px; }
+.content{width: 100%;height: 580px;background:url(../img/login.png);}
+p{width: 1226px;height: 38px;margin: 0px auto;line-height:38px;text-align: center;color: #757575;}
+span{font-size: 13px;margin: 0px 10px;display: inline-block;}
 
-.header{width: 1226px;height: 100px;margin: 0px auto;line-height:90px;padding-left: 40px; }
-.content{width: 100%;height: 580px;background: url(../images/login.png);}
-p{width: 1226px;height: 38px;margin:0px auto;line-height: 38px;text-align: center;color: #757575;}
-span{font-size: 13px;margin:0px 10px;}
-.login_content{width: 1226px;height: 520px;margin:0px auto;}
-.login_form{width: 410px;height: 520px;float: right;background: #fff;margin: 30px 50px;}
-.login_form_main{width: 330px;margin:25px auto; }
+.login_content{width: 1226px;height: 500px;margin: 0px auto;}
+.login_form{float: right;background: #fff;width: 410px;height: 520px;margin:30px 56px;}
+
+/*登录框*/
+.login_form_main{margin:25px auto;width:330px; }
 .login_form_main p{font-size: 23px;text-align: center;float: left;color: #757575;width: 150px;height: 50px;line-height: 50px;}
-.login_form_main span{font-size: 30px;float: left;height: 50px;line-height: 50px;color: #e0e0e0;}
-.login_form_content{margin-top: 25px;}
-input{border: none;width: 328px;height: 28px;padding: 11px;margin: 15px auto;border:1px solid #e0e0e0;display: block;}
-button{border: none;width: 350px;display: block;height: 50px; margin: 25px auto 0px;background: #ff6700;color: #fff;}
-.login_form_content h6{font-weight: 300;width: 350px;margin: 0px auto;height: 40px;line-height: 40px;}
-.login_form_content span{float: right;}
-.login_form_pic{width: 350px;margin:100px auto 0px;border-top: 1px solid #e0e0e0 ; position: relative;}
-.login_form_pic p{width: 100px;height: 30px;line-height: 30px;color: #ccc;background: #fff;position: absolute;top:-15px;left: 125px;}
-.login_form_pic ul {width: 233px; margin: 20px  auto 0px;}
-.login_form_pic ul li{float: left;height: 32px;width: 32px;line-height: 32px;color: #fff;text-align: center;border-radius: 16px;background:#6D6E6A; }
+.login_form_main p:hover{color:#FF6A00;}
+.login_form_main span{font-size: 30px;float: left;height: 50px;line-height: 50px;color: #E0E0E0;}
+input{border: none;width: 328px;display: block;height:28px;margin: 15px auto;padding: 10px; }
+input[name="username"]{border: 1px solid #E0E0E0;}
+input[name="password"]{border: 1px solid #E0E0E0;}
+button {border: none;width: 350px;display: block;height:50px;margin: 25px auto 0px auto;color: #fff;background:#FF6A00;}
+.login_form h6{font-weight: 300;width: 350px;margin: 0px auto;height: 40px;line-height: 40px;}
+.login_form h6 span{float: right;color: #ccc;}
+.login_form h6 a{color: #ccc;}
+.login_form h6 a:hover{color: #FF6A00;}
+.login_form_pic{border-top:1px solid #E0E0E0;width: 350px;margin: 0px auto; margin-top: 110px;position: relative;}
+.login_form_pic p{width:100px;height: 30px;font-size: 14px;color: #ccc;line-height: 30px;background: #fff;position:absolute;top:-15px;left: 125px; }
+.login_form_pic ul{width:233px;margin:20px auto 0px auto;}
+.login_form_pic ul li{float: left;height: 32px;width: 32px;line-height: 32px; text-align: center;color: #fff;border-radius:16px;}
 .login_form_pic ul li i{font-size: 17px;}
-.pic1:hover{background: #0288d1;}
-.login_form_content0{width: 350px;margin: 0px auto;text-align: center;}
-.login_form_content0 img{height: 190px;width: 180px;margin:70px auto 15px;}
-.login_form_content0  p{width: 350px;margin:0px auto; line-height: 20px;height: 20px;}
-
-
+.login_form_pic1,.login_form_pic3{background:#747474;}
+.login_form_pic2,.login_form_pic4{background:#4A4A4A;}
+.login_form_pic1:hover{background:#0288D1; }
+.login_form_pic2:hover{background:#D32F2F; }
+.login_form_pic3:hover{background:#00AAEE; }
+.login_form_pic4:hover{background:#00D20D; }
+.login_form_content0{width:350px;margin:0px auto;text-align: center;}
+.login_form_content0 img{height: 190px;width: 180px;margin:70px auto 15px auto;}
+.login_form_content0 p{width:350px;margin:0px auto; line-height: 20px;height: 20px;}

@@ -1,0 +1,192 @@
+ul {  list-style: none;  }
+
+h1, h2, h3, h4, h5, h6 {  margin: 0;  padding: 0;  font-weight: normal; }
+
+/*大导航下面的六个小css块样式*/
+.content-picli_1 li       {  width: 33%;  height: 60px;  color: #ccc;  font-size: 14px;  float: left;  text-align: center;  margin-top: 20px;  }
+.content-picli_1 li span  {  width: 100%;  height: 30px;  float: left;  text-align: center;  }
+.content-picli_1 li:hover {  color: #eee;  }
+
+/*小米闪购的长广告   覆盖mi.css*/
+.content-pic {  margin: 30px 0;  }
+
+/*重写二级标题样式,包括小米闪购和下面的一堆二级标题*/
+.content-picshop h2,
+.content-bottom h2      { height: 56px;  line-height: 50px;  font-size: 22px;  padding-top: 20px;  margin: 0;  font-weight: 300;  }
+.content-bottom h2 .tab { float: right;  color: #424242;  font-size: 16px;  font-weight: normal;  line-height: 60px;  }
+
+/*优化长广告         覆盖mi.css*/
+.content-bottom2_pic,
+.content-bottom3_pic,
+.content-bottom7_pic { margin-top: 40px;  }
+
+/*小米闪购*/
+/*重写height和padding-top   覆盖mi.css*/
+.content-picshop3,
+.content-picshop4,
+.content-picshop5,
+.content-picshop6,
+.content-picshop7 { border-top: 1px solid;  padding-top: 40px;  height: 300px;  background-color: #fff;  position: relative;  }
+
+.content-picshop4,
+.content-picshop5,
+.content-picshop6,
+.content-picshop7 { color: #333;  }
+
+/*浅灰色背景*/
+.bg {  background-color: rgba(0, 0, 0, 0.02);  width: 100%;  height: 100%;  position: absolute;  top: 0;  left: 0;  }
+
+/*闪购倒计时*/
+.content-picshop3 {          border-color: #e53935;  background-color: #f1eded;  }
+.content-picshop3 div     {  width: 100%;  text-align: center;  }
+.content-picshop3 .time   {  font-size: 24px;  color: #ef3a3b;  margin-top: 15px;  }
+.content-picshop3 .flash  {  height: 64px;  margin: 25px 0;  }
+.content-picshop3 .detail {  line-height: 22px;  color: rgba(0, 0, 0, 0.54);  font-size: 15px;  }
+.content-picshop3 .clock  {  color: #605751;  font-size: 24px;  line-height: 46px;  margin-top: 30px;  }
+
+.clock .hour,
+.clock .minute,
+.clock .second { display: inline-block;  background-color: #605751;  width: 46px;  height: 46px;  color: #fff;  }
+
+/*闪购item*/
+.content-picshop4 {  border-color: #ffac13;  }
+.content-picshop5 {  border-color: #83c44e;  }
+.content-picshop6 {  border-color: #2196f3;  }
+.content-picshop7 {  border-color: #e53935;  }
+.picshopImg   {   width: 160px; height: 160px; margin: 0 38px 22px;  }
+.picshopTitle {   width: 100%; font-size: 14px; margin: 0 3px;  -ms-text-overflow: ellipsis;  text-overflow: ellipsis;  white-space: nowrap;  overflow: hidden;  text-align: center;  }
+.picshopDesc  {   width: 100%; font-size: 12px; color: #b0b0b0;  text-align: center;  margin: 8px 0 12px;  -ms-text-overflow: ellipsis;  text-overflow: ellipsis;  white-space: nowrap;  overflow: hidden;  }
+.picshopPrice {   width: 100%; text-align: center;font-size: 13px;  color: #b0b0b0;  }
+
+/*手机*/
+/*重写手机item的paddint-top和height  覆盖mi.css*/
+.content-bottom1_1 div,
+.content-bottom1_2 div {position: relative;  padding-top: 20px;  height: 280px;  background-color: #fff;  }
+
+/*手机 / 视频后面的查看更多*/
+.content-bottom1_li .tab span ,
+.content-bottom0_li .tab span{  float: right;  width: 20px;  height: 20px;  margin-top: 20px;  margin-left: 10px;  line-height: 18px;  text-align: center;  border-radius: 10px;  background-color: #b0b0b0;  color: #fff;  }
+
+/*红/绿色优惠小标记*/
+.bottomFlagRed,
+.bottomFlagGreen {  position: absolute;  top: 0;  left: 50%;  margin-left: -32px;  width: 64px;  height: 18px;  font-size: 12px;  color: #fff;  line-height: 18px;  text-align: center;  }
+
+.bottomFlagRed   {  background-color: #e53935;  }
+.bottomFlagGreen {  background-color: #83c44e;  }
+
+
+
+
+/*bottom图片统一样式*/
+.bottomImg   {   width: 160px; height: 160px;  margin: 0 37px 18px;  }
+/*bottom标题统一样式*/
+.bottomTitle {   width: 100%;  font-size: 14px;  margin: 3px 0;  -ms-text-overflow: ellipsis;  text-overflow: ellipsis;  white-space: nowrap;  overflow: hidden;  text-align: center;  }
+/*bottom描述统一样式*/
+.bottomDesc  {   width: 100%;  font-size: 12px;  color: #b0b0b0;  text-align: center;  margin: 4px 0 12px;  -ms-text-overflow: ellipsis;  text-overflow: ellipsis;  white-space: nowrap;  overflow: hidden;  }
+/*bottom价格统一样式*/
+.bottomPrice {   width: 100%;  text-align: center;  font-size: 13px;  color: #b0b0b0;  }
+
+
+
+
+/*评论*/
+.bottomDiscuss {    position: absolute;  left: 0;  top: 245px;  width: 174px;  height: 40px;  padding: 8px 30px;  background-color: #ff6700;  color: #fff;  display: none;  }
+
+.bottomDiscuss .bottomReview,
+.bottomDiscuss .bottomAuthor {  display: block;  width: 174px;  font-size: 12px;  -ms-text-overflow: ellipsis;  text-overflow: ellipsis;  white-space: nowrap;  overflow: hidden;  }
+.bottomDiscuss .bottomAuthor {  color:rgba(255,255,255,0.6);}
+
+/*评论框  css3动画效果*/
+.content-bottom2_2:hover .bottomDiscuss,
+.content-bottom2_3:hover .bottomDiscuss,
+.content-bottom2_4:hover .bottomDiscuss,
+.content-bottom2_5:hover .bottomDiscuss,
+.content-bottom2_7:hover .bottomDiscuss,
+.content-bottom2_8:hover .bottomDiscuss,
+.content-bottom2_9:hover .bottomDiscuss,
+.content-bottom2_0:hover .bottomDiscuss  {   -webkit-animation: upmove 1s ease;  -o-animation: upmove 1s ease;  animation: upmove 1s ease;  display: block;}
+@keyframes upmove { from {  top: 265px; opacity: 0; } to {   top: 245px;opacity: 1;  } }
+
+/*右下角的两个框*/
+.bottomTop,
+.bottomBottom  { display: block;  width: 235px;  height: 145px;  background-color: #fff;  }
+.bottomBottom  { margin-top: 10px;  }
+
+.bottomTop .bottomTitle {   margin-top: 45px;  float: left;  width: 120px;  }
+.bottomTop .bottomPrice {   float: left; width: 120px;}
+.bottomTop img {   width: 90px; float: right; }
+
+.bottomBottom .bottomTitle,
+.bottomBottom .bottomDesc  {  float: left; width: 120px; }
+
+.bottomBottom .bottomTitle {  font-size: 18px; margin-top: 45px; }
+.bottomBottom .bottomDesc  {  text-align: left;padding-left: 20px; }
+.bottomBottom span {  margin-top: 35px; }
+
+/*家电*/
+/*家电后面的列表*/
+.content-bottom2_li .tab li{  float: left; height: 26px; margin-top: 10px; margin-left: 30px; line-height: 26px; text-align: center; color: #424242; }
+.content-bottom2_li .tab li:hover { color: #ff6700; border-bottom: 3px solid #ff6700;  }
+/*重写家电item的padding-top和height  覆盖mi.css*/
+.content-bottom2_shop1 div,
+.content-bottom2_shop2 div {  position: relative;  height: 300px;  background-color: #fff;  overflow: hidden;}
+.content-bottom2_shop  img {  margin-top: 30px;}
+
+/*为你推荐*/
+.content-bottom7_shop  div {  height:255px;  padding-top: 45px;  }
+.content-bottom7_shop .bottomImg{   width: 140px; margin:0 47px;}
+
+.content-bottom7_shop .bottomTitle,
+.content-bottom7_shop .bottomPrice{ margin-bottom: 10px;}
+
+
+/*热评产品*/
+.content-bottom8_shop .bottomImg     {   width: 100%; height:200px; margin:0 0 28px;}
+.content-bottom8_shop .bottomComment {   width: 240px; height: 72px;  margin:0 28px 22px;  color:#333;  font-size: 14px;  line-height: 24px;  font-weight: 400; overflow: hidden;  text-align: left;  }
+.content-bottom8_shop .bottomAuthor  {   margin:0 28px 10px;  font-size: 12px;  color:#b0b0b0;  }
+.content-bottom8_shop .bottomTitle   {   width:212px;  padding-left: 28px;  text-align: left;  color:#333;  }
+.content-bottom8_shop .bottomSeparate{ /*display:inline-block;*/  width:0px;  margin:0 10px;  border-left:1px solid #ccc;  }
+
+
+/*内容*/
+.content-bottom9_1 {  margin-right:12.7px;background:#fff;float: left;}
+.content-bottom9_2 {  margin-right:12.7px;background:#fff;float: left;}
+.content-bottom9_3 {  margin-right:12.7px;background:#fff;float: left;}
+.content-bottom9_4 {  background:#fff;float: left;}
+.content-bottom9_shop div { height: 374px;  padding-top: 45px;  }
+.content-bottom9_shop .picshopTitle  {  width: 100%;  margin: 0;  margin-bottom: 18px;  font-size: 16px;  }
+.content-bottom9_shop .picshopDesc   {  margin: 0 0 5px;  color: #333;  font-size: 20px;  font-weight: 400;  line-height: 25px;  text-overflow: ellipsis;  white-space: nowrap;  overflow: hidden;}
+.content-bottom9_shop .picshopDetail {  width: 200px;height: 40px;margin: 0 48px 10px;color: #b0b0b0;font-size: 12px;text-align: center;overflow: hidden;}
+.content-bottom9_shop .picshopPrice  {  margin:0 0 15px;}
+.content-bottom9_shop .picshopImg    {  width: 216px; margin:0 40px;}
+/*小圆点*/
+.content-bottom9_shop .picshopPage   {  width:100%;height:30px;margin-top: 10px;text-align: center;}
+.content-bottom9_shop .picshopPage span    {  display: inline-block;}
+.content-bottom9_shop .picshopPage i {  float: left;width:8px;height: 8px;margin:10px;border:2px solid #fff;border-radius: 15px;background-color: #aaa;}
+.content-bottom9_shop .picshopPage i.focus {  background-color: #fff;border-color: #ffac13;}
+/*各个框的上边框颜色和title字颜色*/
+.content-bottom9_1 {  border-top: 1px solid #ffac13; }
+.content-bottom9_1 .picshopTitle {  color:  #ffac13; }
+.content-bottom9_2 {  border-top: 1px solid #83c44e; }
+.content-bottom9_2 .picshopTitle {  color:  #83c44e; }
+.content-bottom9_3 {  border-top: 1px solid #e53935; }
+.content-bottom9_3 .picshopTitle {  color:  #e53935; }
+.content-bottom9_4 {  border-top: 1px solid #2196f3; }
+.content-bottom9_4 .picshopTitle {  color:  #2196f3; }
+
+
+/*视频*/
+.content-bottom0_1,
+.content-bottom0_2,
+.content-bottom0_3,
+.content-bottom0_4 {  position:relative;}
+
+.content-bottom0_shop .bottomImg     {  width:100%; margin:0;}
+.content-bottom0_shop .bottomPlayIcon{  position: absolute; top:130px;  left:20px;  width:32px; height:20px; background-color: rgba(0,0,0,0.6);border:2px solid #fff;border-radius: 20px;text-align: center;line-height: 20px;font-size: 12px;color:#fff;}
+.content-bottom0_shop .bottomTitle   {  margin-top:36px;}
+
+.content-bottom0_1:hover .bottomPlayIcon,
+.content-bottom0_2:hover .bottomPlayIcon,
+.content-bottom0_3:hover .bottomPlayIcon,
+.content-bottom0_4:hover .bottomPlayIcon{ color:#fff;  background-color: #ff6700; border-color:#ff6700;}
+
